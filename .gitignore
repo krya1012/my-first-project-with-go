@@ -1,22 +1,12 @@
-# IDE
-.idea/
+# Whitelist approach: ignore everything except Go source and docs
+*
 
-# Gradle
-.gradle/
-build/
-out/
+# Allow directory traversal
+!*/
 
-# Java compiled output
-*.class
-
-# Go binaries
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-/My First Project with Go/task/task
-
-# Hyperskill remote sync
-course-remote-info.yaml
-**/task-remote-info.yaml
+# Allow tracked file types
+!*.go
+!go.mod
+!go.sum
+!*.md
+!.gitignore
