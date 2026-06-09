@@ -3,11 +3,20 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Prices:")
-	fmt.Println("Bubblegum: $2")
-	fmt.Println("Toffee: $0.2")
-	fmt.Println("Ice cream: $5")
-	fmt.Println("Milk chocolate: $4")
-	fmt.Println("Doughnut: $2.5")
-	fmt.Println("Pancake: $3.2")
+	fmt.Println("Earned amount:")
+	bubblegum := 202
+	toffee := 118
+	iceCream := 2250
+	milkChocolate := 1680
+	doughnut := 1075
+	pancake := 80
+	fmt.Printf("Bubblegum: $%d\n", bubblegum)
+	fmt.Printf("Toffee: $%d\n", toffee)
+	fmt.Printf("Ice cream: $%d\n", iceCream)
+	fmt.Printf("Milk chocolate: $%d\n", milkChocolate)
+	fmt.Printf("Doughnut: $%d\n", doughnut)
+	fmt.Printf("Pancake: $%d\n", pancake)
+	fmt.Println()
+	total := bubblegum + toffee + iceCream + milkChocolate + doughnut + pancake
+	fmt.Printf("Income: $%d\n", total)
 }
