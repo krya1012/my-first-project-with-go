@@ -1,0 +1,22 @@
+# IDE
+.idea/
+
+# Gradle
+.gradle/
+build/
+out/
+
+# Java compiled output
+*.class
+
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/My First Project with Go/task/task
+
+# Hyperskill remote sync
+course-remote-info.yaml
+**/task-remote-info.yaml
