@@ -11,8 +11,8 @@ Prints a list of shop products and their prices, calculates total income from qu
 | # | Stage | Status |
 |---|-------|--------|
 | 1 | Print the prices | ✅ Done |
-| 2 | Measuring total income | ⬜ Pending |
-| 3 | Calculate net income | ⬜ Pending |
+| 2 | Measuring total income | ✅ Done |
+| 3 | Calculate net income | ✅ Done |
 
 ## Running
 

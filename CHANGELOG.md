@@ -1,9 +1,9 @@
 # Changelog
 
-## [Unreleased]
+## [1.0.0] — 2026-06-09
 
-### Pending
-- Stage 3: Calculate net income — read staff/other expenses from stdin, print net income
+### Added
+- Stage 3: Calculate net income — reads staff and other expenses from stdin, prints net income (supports negative values)
 
 ## [0.2.0] — 2026-06-09
 

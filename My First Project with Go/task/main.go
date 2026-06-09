@@ -19,4 +19,13 @@ func main() {
 	fmt.Println()
 	total := bubblegum + toffee + iceCream + milkChocolate + doughnut + pancake
 	fmt.Printf("Income: $%d\n", total)
+
+	var staffExpenses, otherExpenses int
+	fmt.Println("Staff expenses:")
+	_, _ = fmt.Scan(&staffExpenses)
+	fmt.Println("Other expenses:")
+	_, _ = fmt.Scan(&otherExpenses)
+
+	net := total - staffExpenses - otherExpenses
+	fmt.Printf("Net income: $%d\n", net)
 }
